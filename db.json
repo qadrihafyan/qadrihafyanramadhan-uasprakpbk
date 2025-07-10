@@ -1,0 +1,30 @@
+{
+  "mobil": [
+    {
+      "id": 1,
+      "nama": "Toyota Avanza",
+      "nomor_polisi": "B 1234 XYZ",
+      "tarif_per_hari": 400000,
+      "disewa": false
+    }
+  ],
+  "pelanggan": [
+    {
+      "id": 1,
+      "nama": "Andi",
+      "telepon": "08123456789",
+      "alamat": "Jl. Melati No. 12"
+    }
+  ],
+  "transaksi": [
+    {
+      "id": 1,
+      "mobilId": 1,
+      "pelangganId": 1,
+      "tanggal_sewa": "2025-07-10",
+      "tanggal_kembali": "2025-07-12",
+      "total": 800000,
+      "status": "selesai"
+    }
+  ]
+}
