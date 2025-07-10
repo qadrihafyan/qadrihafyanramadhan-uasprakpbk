@@ -1,7 +1,7 @@
 {
   "mobil": [
     {
-      "id": 1,
+      "id": "1",
       "nama": "Toyota Avanza",
       "nomor_polisi": "B 1234 XYZ",
       "tarif_per_hari": 400000,
@@ -10,20 +10,62 @@
   ],
   "pelanggan": [
     {
-      "id": 1,
+      "id": "1",
       "nama": "Andi",
       "telepon": "08123456789",
       "alamat": "Jl. Melati No. 12"
+    },
+    {
+      "id": "2b17",
+      "nama": "rama",
+      "no_hp": "08151212121",
+      "alamat": "ramadhan"
     }
   ],
   "transaksi": [
     {
-      "id": 1,
-      "mobilId": 1,
-      "pelangganId": 1,
+      "id": "c333",
+      "pelangganId": "1",
+      "mobilId": "1",
       "tanggal_sewa": "2025-07-10",
-      "tanggal_kembali": "2025-07-12",
-      "total": 800000,
+      "tanggal_kembali": "2025-07-11",
+      "total": 400000,
+      "status": "selesai"
+    },
+    {
+      "id": "1005",
+      "pelangganId": "1",
+      "mobilId": "1",
+      "tanggal_sewa": "2025-07-10",
+      "tanggal_kembali": "2025-07-11",
+      "total": 400000,
+      "status": "selesai"
+    },
+    {
+      "id": "684c",
+      "pelangganId": "1",
+      "mobilId": "1",
+      "tanggal_sewa": "2025-07-10",
+      "tanggal_kembali": "2025-07-11",
+      "total": 400000,
+      "status": "selesai"
+    },
+    {
+      "id": "3ea2",
+      "pelangganId": "1",
+      "mobilId": "1",
+      "tanggal_sewa": "2025-07-10",
+      "tanggal_kembali": "2025-07-20",
+      "total": 4000000,
+      "status": "selesai"
+    },
+    {
+      "id": "4df1",
+      "pelangganId": "1",
+      "mobilId": "1",
+      "tanggal_sewa": "2025-07-10",
+      "tanggal_kembali": "2025-07-11",
+      "total": 400000,
       "status": "selesai"
     }
   ]
