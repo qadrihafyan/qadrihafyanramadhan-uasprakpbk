@@ -33,6 +33,11 @@ export const useMobilStore = defineStore('mobil', {
         async updateMobil(id, updatedData) {
             await axios.put(`http://localhost:3000/mobil/${id}`, updatedData)
             await this.fetchMobil()
+        },
+
+        async hapusMobil(mobilId){
+            await axios.delete(`http://localhost:3000/mobil/${mobilId}`)
+            await this.fetchMobil()
         }
     }
 })
